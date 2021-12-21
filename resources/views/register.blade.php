@@ -6,7 +6,7 @@
             <form action="register" method="POST">
                 <div class="form-group">
                     <label for="exampleInputName1">Name</label>
-                    <input type="text" name="email" class="form-control" id="exampleInputName1" placeholder="Name">
+                    <input type="text" name="name" class="form-control" id="exampleInputName1" placeholder="Name">
                 </div>
                 <div class="form-group">
                     @csrf
