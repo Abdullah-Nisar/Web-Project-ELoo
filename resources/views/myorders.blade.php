@@ -1,11 +1,17 @@
 @extends('master')
 @section("content")
 <div class="custom-product">
-     <div class="col-sm-10">
+     <div class="col-12">
         <div class="trending-wrapper">
-            <h4>my orders </h4>
+            <h1 style="
+    text-align: center;
+    font-weight: bold;
+">My Orders</h1>
             @foreach($orders as $item)
-            <div class=" row searched-item cart-list-devider">
+            <div class=" row searched-item cart-list-devider" style="
+    display: flex;
+    align-items: center;
+">
              <div class="col-sm-3">
                 <a href="detail/{{$item->id}}">
                     <img class="trending-image" src="{{$item->gallery}}">
